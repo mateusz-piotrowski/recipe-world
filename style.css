@@ -1,22 +1,81 @@
-body {
-	padding: 0 0 0 0;
+html {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
 }
-a {
-  color: red;
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+	padding: 0 0 0 0;
+  font-family: Halvetica, Arial, "Times New Roman", sans-serif;
+  font-size: 100%;
+  font: inherit;
 }
 h1 {
+  padding: 0;
+  border: 0;
+  margin: 0;
 	color: #ffffff;
 	margin: 0 0 15px 0;
 	text-align: center;
+  font-size: 100%;
+  font: inherit;
 }
 h2 {
-	margin: 10px 0 20px 0;
+  color: #7facaa;
+	margin: 0 0 20px 0;
 	text-align: center;
+  font-size: 26px;
+  font-weight: bold;
 }
 h3 {
+  padding: 0;
+  border: 0;
+  margin: 0;
   margin: 15px 0 15px 0;
   border-bottom: 1px solid #cccccc;
   padding-bottom: 3px;
+  font-size: 100%;
+  font: inherit;
+}
+p {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+ol {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+ul {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+li {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  color: red;
+  font-size: 100%;
+  font: inherit;
 }
 .header {
   width: 500px;
@@ -32,6 +91,9 @@ h3 {
 	padding: 20px;
 	border: 1px solid #dddddd;
 	margin: 30px auto 0 auto;
+}
+.main-content p {
+  line-height: 30px;
 }
 .nav {
 	text-align: center;
@@ -60,4 +122,12 @@ h3 {
 .recipes a {
   color: #7facaa;
   text-decoration: none;
+}
+.footer p {
+  color: #aaaaaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
 }
