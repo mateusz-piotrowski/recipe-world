@@ -77,6 +77,36 @@ a {
   font-size: 100%;
   font: inherit;
 }
+label, input {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+}
+input {
+  width: 500px;
+  margin-bottom: 25px;
+}
+input[type=submit] {
+  width: 120px;
+  font-size: 14px;
+}
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=checkbox], label[for=newsletter] {
+  display: inline;
+}
+textarea {
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24x;
+}
 .header {
   width: 500px;
 	padding: 10px 10px 10px 10px;
