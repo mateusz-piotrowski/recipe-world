@@ -173,3 +173,10 @@ textarea {
   font-style: italic;
   text-transform: uppercase;
 }
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+}
