@@ -107,6 +107,9 @@ textarea {
   margin-bottom: 25px;
   font-size: 24x;
 }
+body {
+  background: #ffffff;
+}
 .header {
   width: 500px;
 	padding: 10px 10px 10px 10px;
@@ -183,4 +186,16 @@ textarea {
 }
 .photos li {
   display: inline;
+}
+.featured-image {
+  width: 480px;
+  height: 480px;
+  background: #ffffff url(images/featured-cake.jpg) top left no-repeat;
+}
+.featured-image h3 {
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
 }
