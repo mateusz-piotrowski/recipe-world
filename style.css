@@ -165,6 +165,10 @@ textarea {
   color: #7facaa;
   text-decoration: none;
 }
+.recipes img {
+  float: left;
+  padding-right: 10px;
+}
 .footer p {
   color: #aaaaaa;
   text-align: center;
