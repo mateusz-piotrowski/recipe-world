@@ -1,0 +1,201 @@
+html {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+	padding: 0 0 0 0;
+  font-family: Halvetica, Arial, "Times New Roman", sans-serif;
+  font-size: 100%;
+  font: inherit;
+}
+h1 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+	color: #7facaa;
+	margin: 0 0 15px 0;
+	text-align: center;
+  font-size: 100%;
+  font: inherit;
+}
+h2 {
+  color: #7facaa;
+	margin: 0 0 20px 0;
+	text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+h3 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+  font-size: 100%;
+  font: inherit;
+}
+p {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+ol {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+ul {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+li {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  color: red;
+  font-size: 100%;
+  font: inherit;
+}
+label, input {
+  display: block;
+}
+label {
+  margin-bottom: 10px;
+}
+input {
+  width: 500px;
+  margin-bottom: 25px;
+}
+input[type=submit] {
+  width: 120px;
+  font-size: 14px;
+}
+input[type=text] {
+  border: 2px solid #7facaa;
+  font-size: 24px;
+  padding: 7px;
+}
+input[type=checkbox], label[for=newsletter] {
+  display: inline;
+}
+textarea {
+  width: 500px;
+  height: 400px;
+  padding: 7px;
+  border: 2px solid #7facaa;
+  margin-bottom: 25px;
+  font-size: 24x;
+}
+body {
+  background: #ffffff;
+}
+.header {
+  width: 500px;
+	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+}
+.header a {
+	color: #ffffff;
+}
+.header h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.main-content {
+	width: 500px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto;
+}
+.main-content p {
+  line-height: 30px;
+}
+.main-content ol {
+  padding: 0 0 0 50px;
+}
+.main-content ul {
+  padding: 0 0 0 50px;
+}
+.nav {
+	text-align: center;
+	padding-left: 0;
+}
+.nav a {
+	color: #0000af;
+	text-decoration: none;
+}
+.nav li {
+	display: inline;
+}
+.recipes {
+  width: 500px;
+  list-style-type: none;
+  padding: 0;
+	margin: 30px auto 0 auto;
+}
+.recipes li {
+  border: 0px solid #b56663;
+  padding-left: 15px;
+}
+.recipes h3 {
+  border-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
+.recipes img {
+  float: left;
+  padding-right: 10px;
+}
+.footer p {
+  color: #aaaaaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+}
+.featured-image {
+  width: 480px;
+  height: 480px;
+  background: #ffffff url(images/featured-cake.jpg) top left no-repeat;
+}
+.featured-image h3 {
+  margin: 0;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
+}
